@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:client_portal
+    driverClassName: org.h2.Driver
+    username: client_portal_user
+    password: clientportalpassword
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  data:
+    rest:
+      basePath: /api
+jwt:
+  secret: javainuse
+  token:
+    validity:
+      time: 300
