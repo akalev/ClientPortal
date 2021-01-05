@@ -1,7 +1,7 @@
 {
   "name": "client-portal",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.5",
     "@babel/preset-react": "^7.7.4",
